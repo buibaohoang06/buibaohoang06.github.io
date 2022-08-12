@@ -1,0 +1,63 @@
+/*Linking Google Fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;200;300;400&display=swap');
+@keyframes underline{
+    0%{
+        padding-bottom: 0;
+    }
+    100%{
+        padding-bottom: 5px;
+    }
+}
+*{
+    font-family: 'Roboto Mono', monospace;
+    color: #D4BF88;
+}
+html{
+    height: 100%;
+    width: 100%;
+    background-color: #3A4928;
+    overflow: hidden;
+    margin: 0;
+}
+body{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+#mantra-wrapper{
+    height: 90%;
+    width: fit-content;
+    margin: auto;
+    text-align: center;
+}
+#mantra{
+    height: fit-content;
+    width: fit-content;
+    margin: auto;
+    text-align: center;
+}
+#mantra-h4{
+    width: 100%;
+    text-align: center;
+}
+#mantra-author{
+    width: 100%;
+    text-align: center;
+}
+#footer{
+    width: 100%;
+    text-align: center;
+    height: 10%;
+}
+#footer > a{
+    color: #D4BF88;
+}
+#footer > a:hover{
+    border-bottom: solid #D4BF88;
+    animation: underline 0.5s;
+    -webkit-animation-fill-mode: forwards; /* Chrome 16+, Safari 4+ */
+    -moz-animation-fill-mode: forwards;    /* FF 5+ */
+    -o-animation-fill-mode: forwards;      /* Not implemented yet */
+    -ms-animation-fill-mode: forwards;     /* IE 10+ */
+    animation-fill-mode: forwards;         
+}
